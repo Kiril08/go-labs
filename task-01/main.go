@@ -19,6 +19,6 @@ func main() {
 	var legal bool = true
 	var weight float32 = 7.34
 
-	fmt.Printf("My name is %s, I am %d years old and it's %t that I can drive a car, my pet weights %.2f kilograms\n",
+	fmt.Printf("My name is %s, I am %d years old and it's %t that I can drive a car, my pet weights %.2git f kilograms\n",
 		name, age, legal, weight)
 }
