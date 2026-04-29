@@ -12,7 +12,7 @@ func task_02_1() {
 }
 
 func main() {
-	task_02_2()
+	task_02_3()
 }
 
 func task_02_2() {
@@ -21,4 +21,13 @@ func task_02_2() {
 		sum = sum + t
 	}
 	fmt.Println(sum)
+}
+
+func task_02_3() {
+	var c int = 5
+	var f int = 0
+	for i := 1; i < 11; i++ {
+		f = i * c
+		fmt.Printf("%d * %d = %d\n", c, i, f)
+	}
 }
